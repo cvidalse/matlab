@@ -1,0 +1,25 @@
+descripcion general del problema.
+Una nueva compañia llamada especial D-Liver-E quiere dominar el mercado de entrega de organos
+en la noches entre hospitales de la zona de Phuket, la precision en de los tiempos de viaje aproximados es muy
+importante para la compañia para poder agendar los viajes. La compañia cuenta con un software para estimar el tiempo
+de viaje pero es muy impreciso, por lo que se pide generar un sistema que mejore las estimaciones. 
+
+entrada-Proceso-salida
+
+Las entradas comienzan con un entero n entre 1 y 30 que indica el numero de ciudades que van del 0 al n-1,
+luego hay n lineas con enteros que contienen la distancia entre las ciudades el valor en la posicion j e i 
+indica la distacia al viajar directamente desde i a j, mientras que el -1 indica que no hay caminos directos y la 
+distancia de una ciudad consigo misma siempre es 0, las distancias son positivas y maximo 1000, del mismo modo 
+existen maximos 100 caminos.
+
+Seguido de esa linea viene una linea con un solo valor enteror r entre 1 y 100 que indica el numero de viajes previos
+Las r lineas siguientes tienen 3 enteros s, d y t, s es de donde sale el paquete, d la ciudad de destino y t el tiempo que 
+tomo llegar a destino en minutos.
+
+finalmente hay una linea con un solo entero q entre 1 y 100 indicando en numero de futuros viajes, y las siguientes q lines contienen 2 enteros s y d
+dando el lugar de salida y el de destino.
+
+La salida es una unica linea que contiene el lugar de salida y el destino para el pedido, seguido de el mejor rango estimado con un error absoluto o 
+relativo de 10^-6.
+  
+
